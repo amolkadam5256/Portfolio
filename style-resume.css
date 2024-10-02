@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*  custome property*/
+:root {
+
+
+    /*  baground color*/
+
+    --bg-dark-purple: hsla(260, 62%, 11%, 1);
+    --bg-russian-violate: hsla(259, 61%, 14%, 1);
+    --bg-vivid-violate: hsla(273, 100%, 55%, 1);
+    --bg-sunglow: hsla(43, 100%, 61%, 1);
+    --bg-blue-jeans: hsla(202, 100%, 50%, 1);
+    --bg-white-alpha-10: hsla(0, 0%, 100%, 0.5);
+    --bg-white-alpha-1: hsla(0, 0%, 0%, 0.1);
+
+
+
+    /*                   text colours           */
+
+    --tex-white: hsla(0, 0%, 100%, 1);
+    --tex-black: hsla(0, 0%, 0%, 1);
+    --tex-sunglow: hsla(43, 100%, 61%, 1);
+    --tex-white-alpha-60: hsla(0, 0%, 100%, 0.6);
+
+
+    /*      border color        */
+
+    --border-blue-jeans: hsla(202, 100%, 50%, 1);
+    --border-white-alpha-10: hsla(0, 0%, 100%, 0.1);
+
+
+    /*            Typography      */
+
+    /*     font size          */
+
+    --fontfamily-open-sans: 'open sans', sans-serif;
+    --fontsize-1: 4rem;
+    --fontsize-2: 3.2rem;
+    --fontsize-3: 2.4rem;
+    --fontsize-4: 2rem;
+    --fontsize-5: 1.8rem;
+    --fontsize-6: 1.6rem;
+    --fontsize-7: 1.4rem;
+
+    /*             font weight         */
+
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+
+
+    /*         Shadow       */
+
+    --shadodw-1: drop-shadow(0 20px 30px hsal(0, 0%, 0%, 0.1));
+    --shadodw-2: drop-shadow(0 20px 30px hsal(0, 0%, 0%, 0.2));
+
+
+    /*           transition       */
+
+    --transition-1: 205ms ease;
+    --transition-2: 500ms ease;
+    --cubic-out: cubic-bezier(0, 1, 0.5, 1);
+
+}
+
+
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+li {
+    list-style: none;
+}
+
+
+a {
+    color: initial;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    height: auto;
+}
+
+input,
+button {
+    background: initial;
+    border: none;
+    font: initial;
+}
+
+input {
+    width: 100%;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+
+    padding: 0;
+    margin: 0;
+    background: #080808;
+    color: #ffff;
+}
+
+
+
+.resume-section {
+    padding-top: 50px;
+    display: block;
+}
+
+
+.resume-container {
+    display: block;
+    margin: auto auto;
+    padding: 0px 7%;
+}
+
+
+.first-resume-section {
+    /* background-color:palegreen; */
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 0;
+}
+
+
+
+.big-resume {
+    position: absolute;
+    width: 100%;
+    font-size: 130px;
+    text-align: center;
+    color: rgba(250, 250, 250, .08);
+    z-index: -1;
+    user-select: none;
+    margin: auto;
+    display: block;
+}
+
+
+.small-resume {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+.first-resume-section p {
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-right: 7%;
+    font-size: 16px;
+    color:rgba(275, 275, 275, 0.5);
+}
+
+
+
+
+.second-resume-section {
+    /* background-color:pink; */
+    padding-top: 70px;
+
+}
+
+
+
+.heading-second-resume-section {
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.second-resume-section .underline {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(150, 189, 115, 1) 53%, rgba(161, 189, 108, 1) 58%, rgba(179, 189, 96, 1) 66%, rgba(188, 189, 90, 1) 70%, rgba(253, 187, 45, 1) 100%);
+    height: 2px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+
+.Experience-row {
+    /* background-color:pink; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 30px;
+    position: relative;
+}
+
+
+.Experience-row-col-1 {
+    width: 500px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(250, 250, 250, 0.2) 0px 6px 24px 0px, rgba(247, 244, 244, 0.06) 0px 0px 0px 6px;
+    border-radius: 9px;
+    padding: 20px 30px;
+}
+
+
+.Experience-row-col-1 .date {
+    color: #ffbd39;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.Experience-row-col-1 h2{
+    font-size:30px;
+    margin-top:20px;
+    margin-bottom:15px;
+    font-weight: 100;
+
+}
+
+
+.Experience-row-col-1 .position{
+    font-size:20px;
+    letter-spacing:2px;
+    color:rgba(275, 275, 275, 0.5);
+
+}
+
+
+.Experience-row-col-1 p{
+    margin-top:20px;
+    font-size:16px;
+    color:rgba(275, 275, 275, 0.5);
+
+}
+
+.Experience-row-col-1 ul{
+    margin-top:20px;
+    margin-left:30px;
+    color:rgba(275, 275, 275, 0.5);
+
+}
+
+
+.Experience-row-col-1 ul li{
+    padding-bottom:20px;
+    list-style:disc;
+}
+
+
+
+
+
+/*  education section  */
+
+
+
+.third-resume-section {
+    margin-top:80px;
+
+}
+
+
+
+.heading-third-resume-section {
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.third-resume-section .underline {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(150, 189, 115, 1) 53%, rgba(161, 189, 108, 1) 58%, rgba(179, 189, 96, 1) 66%, rgba(188, 189, 90, 1) 70%, rgba(253, 187, 45, 1) 100%);
+    height: 2px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+
+.Education-row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top:50px;
+    position: relative;
+}
+
+
+.Education-row-col-1 {
+    width: 500px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(250, 250, 250, 0.2) 0px 6px 24px 0px, rgba(247, 244, 244, 0.06) 0px 0px 0px 6px;
+    border-radius: 9px;
+    padding: 20px 30px;
+}
+
+
+.Education-row-col-1 .date {
+    color: #ffbd39;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.Education-row-col-1 h2{
+    font-size:30px;
+    margin-top:20px;
+    margin-bottom:15px;
+    font-weight: 100;
+
+}
+
+
+.Education-row-col-1 .position{
+    font-size:20px;
+    letter-spacing:2px;
+    font-weight: bold;
+    color:rgba(275, 275, 275, 0.5);
+
+}
+
+
+.Education-row-col-1 p{
+    margin-top:20px;
+    font-size:16px;
+    color:rgba(275, 275, 275, 0.5);
+
+}
+
+
+
+
+.forth-resume-section{
+    margin-top:100px;
+    margin-bottom:50px;
+}
+
+.btn-downlode-section{
+    text-align:center;
+}
+
+
+.btn-downlode-section .btn-download{
+    font-size:22px;
+    padding:15px 30px;
+    background:#ffbd39;
+    border-radius:50px;
+    text-decoration:none;
+    color:white;
+}

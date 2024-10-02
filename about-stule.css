@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+
+    padding: 0;
+    margin: 0;
+    background: #080808;
+    color: #ffff;
+}
+
+
+.ftco-about {
+    padding-top: 70px;
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+
+.ftco-about .container {
+    display: block;
+    margin: auto auto;
+    padding: 0px 0px 0px 7%;
+}
+
+
+.ftco-about .container .about-row {
+    display: block;
+    /* background-color: pink; */
+}
+
+.ftco-about .container .about-row .about-row-1 {
+
+    display: flex;
+    width: 100%;
+}
+
+.left-about-section {
+    width: 50%;
+
+}
+
+
+.left-about-section .left-section {
+    /* background-color: aqua; */
+    display: block;
+}
+
+
+.left-about-section .left-section .left-section-row {
+    margin: auto;
+    padding: auto;
+    /* background-color:yellow; */
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.left-section-row .left-section-img {
+    /* background-color:red; */
+    margin: auto;
+}
+
+.about-img {
+    width: 100%;
+    z-index: 0;
+    position: relative;
+
+    .img-fluid {
+        display: block;
+        position: relative;
+        z-index: 1;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 7px solid #ffffff;
+        /* Border color and thickness */
+        object-fit: cover;
+        /* Ensures the image is scaled correctly */
+    }
+}
+
+
+.left-section-row .left-section-info {
+    /* background-color: antiquewhite; */
+    margin: auto;
+    padding: 00px 20px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.left-section-info .about-info .title-s {
+    font-size: 20px;
+    color: rgba(275, 275, 275, 0.7);
+}
+
+
+
+
+
+.left-about-section .skills-container {
+    /* background-color: #4CAF50; */
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+.skills-container h2 {
+    text-align: start;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    color: rgba(275, 275, 275, 0.7);
+
+
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill h3 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: rgba(275, 275, 275, 0.7);
+}
+
+.progress-wrap {
+    background-color: rgba(275, 275, 275, 0.7);
+    border-radius: 5px;
+    height: 15px;
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    border-radius: 4px;
+    position: relative;
+    background: #ffbd39;
+    /* background: linear-gradient(45deg, #4CAF50, #8BC34A); */
+    transition: width 1s ease;
+}
+
+.progress-bar span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.progress-bar[data-progress="90"] {
+    width: 90%;
+}
+
+.progress-bar[data-progress="85"] {
+    width: 85%;
+}
+
+.progress-bar[data-progress="75"] {
+    width: 75%;
+}
+
+.progress-bar:hover span {
+    opacity: 1;
+}
+
+/* Media Query for mobile responsiveness */
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .skill h3 {
+        font-size: 1em;
+    }
+
+    .progress-wrap {
+        height: 15px;
+    }
+
+    .progress-bar span {
+        font-size: 0.8em;
+    }
+}
+
+
+
+
+/*  right-about-section  css in about section */
+
+
+.right-about-section {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.right-about-section .right-section {
+    display: block;
+}
+
+
+.right-section .right-section-h2 {
+    font-size: 4rem;
+    color: #ff004f;
+    /* background-color:rebeccapurple; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.right-about-section .para-one {
+    font-size: 1.1em;
+    padding-bottom: 35px;
+    color: rgba(255, 255, 255, .8);
+    font-weight: 400;
+}
+
+
+
+.right-section .about-profile-info {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+
+.right-section .about-profile-info .value-profile {
+    color: rgba(275, 275, 275, 0.7);
+}
+
+
+
+
+/*  30 + project  */
+
+
+.counter-wrap {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+.text {
+    width: 100%;
+    height: 30vh;
+    display: block;
+    padding-top: 30px;
+}
+
+
+
+.text .para-1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.text .para-1 .btn-linkedin {
+    font-size: 22px;
+    padding: 15px 30px;
+    background: #ffbd39;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/*  medaia quary  */
+
+@media (max-width: 900px) {
+
+    .ftco-about {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        display: block;
+    }
+
+    .ftco-about .container .about-row .about-row-1 {
+
+        display: block;
+        width: 100%;
+    }
+
+    .left-about-section {
+        width: 100%;
+
+    }
+
+
+    .right-about-section {
+        width: 100%;
+        padding-right:20px;
+    }
+
+}

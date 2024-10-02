@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amol Kadam | Web Developer Portfolio</title>
+    <meta name="description"
+        content="Amol Kadam's portfolio showcasing web development projects, skills, and experience in frontend design using HTML, CSS, and JavaScript.">
+    <meta name="keywords"
+        content="Amol Kadam, web developer, portfolio, HTML, CSS, JavaScript, frontend design, app development">
+    <meta name="keywords"
+        content="Web Developer, Frontend Developer, HTML, CSS, JavaScript, React, Bootstrap, Responsive Design, UI/UX, Web Performance, Amol Kadam, Portfolio">
+
+    <script src="https://kit.fontawesome.com/409c371b1b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about-stule.css">
+    <link rel="stylesheet" href="style-resume.css  ">
+    <link rel="stylesheet" href="style-services.css">
+    <link rel="stylesheet" href="/style-project.css">
+
+
+    <!-- Linking SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Linking SwiperJS script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <div id="header">
+
+        <nav id="stickyHeader">
+
+            <!-- id="stickyHeader" -->
+
+
+            <div class="logo-section">
+                <img src="/images/logo.png" alt="" class="logo">
+            </div>
+
+
+            <div class="nav-bar">
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#resume-section">Resume</a></li>
+                    <li><a href="#service-info">Services</a></li>
+                    <li><a href="#project-page">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+                <div class="menu-icon" id="toggleButton">
+                    <div class="manu-container" onclick="myFunction(this)">
+
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+
+
+
+        <div class="header-text container" id="home-section">
+            <h1>Hi, I'm <Span>Amol</Span><br>Kadam From India</h1>
+            <span id="typing-animation"></span>
+            <br>
+            <br>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--  =----------------------------- about me section ------------------------------ -->
+
+    <section class="ftco-about" id="about-section">
+        <div class="container">
+            <div class="about-row">
+                <div class="about-row-1">
+
+
+                    <!-- <div class="row d-flex"> -->
+                    <div class="left-about-section">
+                        <div class="left-section">
+
+
+                            <div class="left-section-row">
+
+                                <div class="left-section-img">
+                                    <div class="about-img">
+                                        <img src="images/user.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <!-- Details next to profile image -->
+                                <div class="left-section-info">
+                                    <div class="about-info">
+                                        <p><span class="title-s">Name : </span> <span> Amol Kadam</span></p>
+                                        <p><span class="title-s">Job Role : </span> <span> A Fresher Java Developer
+                                            </span></p>
+                                        <p><span class="title-s">Experience : </span> <span> Fresher</span></p>
+                                        <p><span class="title-s">Address : </span> <span> Pune, India</span></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- ================================= skills progress bar====================== -->
+
+                            <div class="skills-container">
+                                <h2>My Skills</h2>
+                                <div class="skill">
+                                    <h3>HTML/CSS</h3>
+                                    <div class="progress-wrap">
+                                        <div class="progress-bar" data-progress="90">
+                                            <span>90%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill">
+                                    <h3>JavaScript</h3>
+                                    <div class="progress-wrap">
+                                        <div class="progress-bar" data-progress="60">
+                                            <span>85%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill">
+                                    <h3>Frontend Frameworks</h3>
+                                    <div class="progress-wrap">
+                                        <div class="progress-bar" data-progress="70">
+                                            <span>75%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill">
+                                    <h3>Version Control</h3>
+                                    <div class="progress-wrap">
+                                        <div class="progress-bar" data-progress="75">
+                                            <span>75%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="skill">
+                                    <h3>Database Management</h3>
+                                    <div class="progress-wrap">
+                                        <div class="progress-bar" data-progress="85">
+                                            <span>75%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="right-about-section">
+                        <div class="right-section">
+
+                            <h2 class="right-section-h2">About Me</h2>
+
+                            <p class="para-one">I am Amol Kadam, a passionate frontend developer currently pursuing my
+                                B.Sc. in Computer Science at Yashwantrao Mohite College, Pune. I am in my third year and
+                                actively looking for a frontend developer role or an internship to enhance my skills and
+                                gain real-world experience in a corporate setting.</p>
+                            <ul class="about-profile-info">
+                                <li class="d-flex"><span>Profile : </span> <span class="value-profile"> Junior Java
+                                        Developer</span>
+                                </li>
+                                <li class="d-flex"><span>Domain : </span> <span class="value-profile"> Web Application
+                                        Development, software Development </span></li>
+                                <li class="d-flex"><span>Education : </span> <span class="value-profile"> Bachelor of
+                                        Computer Science ( B.Sc )</span></li>
+                                <li class="d-flex"><span>Language : </span> <span class="value-profile"> English, Hindi,
+                                        Marathi</span></li>
+                                <!-- <li class="d-flex"><span>BI Tools : </span> <span class="value-profile"> Microsoft Power
+                                        BI, Looker &amp;
+                                        Tableau</span></li> -->
+                                <li class="d-flex"><span>skills, tools, and languages : </span> <span
+                                        class="value-profile"> HTML5, CSS3, JavaScript, Version Control (Git/GitHub),
+                                        Java, C & C++ With OOP</span></li>
+                                <li class="d-flex"><span>Interest : </span> <span class="value-profile"> Traveling,
+                                        swimming,
+                                        documentary</span></li>
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="counter-wrap">
+        <div class="text">
+            <p class="para-1">
+                <span class="number" id="counter" data-number="30">0</span> <span>+</span>
+                <span>&nbsp; Projects completed</span>
+            </p>
+            <p class="para-1"><a href="https://www.linkedin.com/in/rishabhnmishra/" class="btn-linkedin">LinkedIn</a>
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--   resume section  -->
+
+
+
+
+    <section class="resume-section" id="resume-section">
+
+        <div class="resume-container">
+
+            <!-- first section  -->
+
+
+            <div class="first-resume-section">
+                <h1 class="big-resume">Resume</h1>
+                <h2 class="small-resume">Resume</h2>
+                <p>Seasoned Senior Data Analyst with 5+ years of experience driving business strategies through
+                    data-driven insights. Proven expertise in data science, statistical analysis, machine learning
+                    algorithms and project management.</p>
+            </div>
+
+            <!-- second  -->
+
+            <div class="second-resume-section">
+                <h1 class="heading-second-resume-section">Experience</h1>
+                <div class="underline"></div>
+            </div>
+            <br>
+
+            <div class="Experience-row">
+
+                <!-- first  -->
+
+                <div class="Experience-row-col-1">
+                    <span class="date">2021-Present</span>
+                    <h2>Senior Data Analyst</h2>
+                    <span class="position">Merkle</span>
+                    <p class="mt-4">Merkle, a leading CXM and media company with over 10K+ professionals globally.
+                        It's a part of Dentsu International.
+                    <ul>
+                        <li>Analysed ad campaigns, clickstream, and customer surveys data, identified an increasing
+                            demand and launched a strategic product line.</li>
+                        <li>Developed time series forecasting models to predict sales and optimize marketing
+                            budgets, got model performance of 92%.</li>
+                        <li>Designed and executed A/B tests, performed rigorous statistical analysis. Led to 20% MoM
+                            increase in the conversion rate.</li>
+                    </ul>
+                    </p>
+
+                </div>
+
+                <!-- ?second -->
+
+                <div class="Experience-row-col-1">
+                    <span class="date">2018-2021</span>
+                    <h2>Senior Data Analyst</h2>
+                    <span class="position">iQuanti</span>
+                    <p class="mt-4">iQuanti is a data-driven digital marketing analytics and solutions company,
+                        helps top 100 global brands.
+                    <ul>
+                        <li>Performed in-depth market research and analysis to create online pages. Resulted in
+                            ~100% website growth and 30% increase in conversion rate YoY.</li>
+                        <li>Delivered multiple training and mentorship sessions on analytical tools like SQL, MS
+                            Excel, Power BI, Tableau and Python.</li>
+                        <li>Performed migration and enhancements for merchandising dashboard, involved data
+                            integration and its feature improvement.</li>
+                    </ul>
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+
+            <!-- third-resume-section -->
+
+
+
+            <div class="third-resume-section">
+                <h1 class="heading-third-resume-section">Education</h1>
+                <div class="underline"></div>
+            </div>
+
+            <div class="Education-row">
+
+                <div class="Education-row-col-1">
+                    <span class="date">2014-2018</span>
+                    <h2>Bachelor of Engineering</h2>
+                    <span class="position">Visvesvaraya Technological University</span>
+                    <p class="mt-4">Grade: First class distinction.</p>
+                </div>
+
+
+                <div class="Education-row-col-1">
+                    <span class="date">2012-2013</span>
+                    <h2>Higher Secondary School</h2>
+                    <span class="position">Army Public School</span>
+                    <p class="mt-4">Grade: First class distinction.</p>
+                </div>
+
+            </div>
+
+            <!-- dowlode btn  -->
+
+
+            <div class="forth-resume-section">
+                <div class="btn-downlode-section">
+                    <p><a href="#" class="btn-download">Download CV</a></p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!--  service section  -->
+
+
+    <div class="service-section" id="service-info">
+
+
+        <div class="service-header-section">
+            <h1 class="big-service">My Services</h1>
+            <h1 class="small-service">My Services</h1>
+        </div>
+
+
+        <div class="service-slide-content">
+
+
+            <div class="swiper">
+
+
+                <div class="slider-wrapper">
+
+                    <div class="card-list swiper-wrapper">
+
+
+
+
+
+                        <div class="card-item swiper-slide">
+                            <img src="/images/user.png" alt="User Image" class="user-image">
+                            <h2 class="user-name">James Wilson</h2>
+                            <p class="user-profession">Software Developer</p>
+                            <button class="message-button">Message</button>
+                        </div>
+
+                        <div class="card-item swiper-slide">
+                            <img src="/images/user.png" alt="User Image" class="user-image">
+                            <h2 class="user-name">Sarah Johnson</h2>
+                            <p class="user-profession">Graphic Designer</p>
+                            <button class="message-button">Message</button>
+                        </div>
+
+                        <div class="card-item swiper-slide">
+                            <img src="/images/user.png" alt="User Image" class="user-image">
+                            <h2 class="user-name">Michael Brown</h2>
+                            <p class="user-profession">Project Manager</p>
+                            <button class="message-button">Message</button>
+                        </div>
+
+                        <div class="card-item swiper-slide">
+                            <img src="/images/user.png" alt="User Image" class="user-image">
+                            <h2 class="user-name">Richard Wilson</h2>
+                            <p class="user-profession">Product Designer</p>
+                            <button class="message-button">Message</button>
+                        </div>
+
+
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <!--  project section start  -->
+
+
+
+
+    <div class="project-section" id="project-page">
+
+
+        <div class="project-container">
+
+            <div class="project-header-section">
+                <h1 class="big-project">Project</h1>
+                <h1 class="small-project">Project</h1>
+                <p>Seasoned Senior Data Analyst with 5+ years of experience driving business strategies through
+                    data-driven insights. Proven expertise in data science, statistical analysis, machine learning
+                    algorithms and project management.</p>
+            </div>
+
+
+            <div class="project-cards">
+
+                <!-- CARD 1 -->
+
+                <div class="card-iteam">
+
+
+                    <!-- front-end part -->
+
+                    <div class="card-fist-block">
+                        <div class="front-img-1"></div>
+                    </div>
+
+
+                    <div class="front-side">
+
+
+                        <h1 class="year"><span>2024</span></h1>
+
+                        <div class="project-info-front" onclick="mydots_1()">
+
+                            <h1 class="title">A-riafreightways</h1>
+
+                            <div class="front-dots" id="dots">
+                                <div class="dots-all"></div>
+                                <div class="dots-all"></div>
+                                <div class="dots-all"></div>
+                            </div>
+
+                        </div>
+
+                        <p>Transport service</p>
+                        <div class="project-media-btn">
+                            <a href="#" class="but-website">Website</a>
+                            <a href="#" class="but-github">Github</a>
+
+                        </div>
+                        <div class="virus">
+                            <i class="fa-solid fa-virus"></i>
+                            <i class="fa-solid fa-virus"></i>
+                            <i class="fa-solid fa-virus"></i>
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- back-end -->
+
+
+                    <div class="backpage" id="backside-1">
+
+                        <div id="back-side-container">
+
+                            <div class="x-close" id="close" onclick="closebtns_1()"></div>
+
+                            <h1>A-riafreightways</h1>
+
+                            <h3>Live</h3>
+
+                            <p>🌟 Excited to share my first project: a transport services website! 🚚✨ This platform
+                                showcases for
+                                transport
+                                services website </p>
+
+                            <div class="lable-title">Need : </div>
+
+                            <p class="last-para">Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <!-- card -2 -->
+
+
+                <div class="project-card-2">
+
+                    <div class="card-img-block">
+                        <img src="/images/first-2.png" alt="img-2" class="front-img-2">
+                    </div>
+
+
+                    <div class="front-side-2">
+
+                        <h1 class="year"><span>2024</span></h1>
+
+                        <div class="front-side-info" onclick="mydots_2()">
+
+                            <h1 class="title">Project_X</h1>
+
+                            <div class="front-dots" id="dots">
+                                <div class="dots-all"></div>
+                                <div class="dots-all"></div>
+                                <div class="dots-all"></div>
+                            </div>
+
+                        </div>
+
+                        <p>Transport service</p>
+                        <div class="project-media-btn">
+                            <a href="#" class="but-website">Website</a>
+                            <a href="#" class="but-github">Github</a>
+
+                        </div>
+                        <div class="virus">
+                            <i class="fa-solid fa-virus"></i>
+                            <i class="fa-solid fa-virus"></i>
+                            <i class="fa-solid fa-virus"></i>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <!-- back-side -->
+
+                    <div class="backpage-2" id="backside-2">
+
+                        <div id="back-side-container"></div>
+
+                        <div class="x-close" id="close" onclick="closebtns_2()"></div>
+
+                        <h1>Project_X</h1>
+
+                        <h3>Live</h3>
+
+                        <p>🌟 Excited to share my first project: a transport services website! 🚚✨ This platform
+                            showcases for
+                            transport
+                            services website </p>
+
+                        <div class="lable-title">Need : </div>
+
+                        <p class="last-para">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+
+                </div>
+
+                <!-- card -3/ -->
+
+
+
+
+                <div class="project-card-3">
+
+                    <div class="card-img-block">
+                        <img src="/images/first-3.png" alt="img-2" class="front-img-3">
+                    </div>
+
+
+                    <div class="front-side-3">
+
+                        <h1 class="year"><span>2024</span></h1>
+
+                        <div class="front-side-info" onclick="mydots_3()">
+
+                            <h1 class="title">Project_y</h1>
+
+                            <div class="front-dots" id="dots">
+                                <div class="dots-all"></div>
+                                <div class="dots-all"></div>
+                                <div class="dots-all"></div>
+                            </div>
+
+                        </div>
+
+                        <p>Transport service</p>
+                        <div class="project-media-btn">
+                            <a href="#" class="but-website">Website</a>
+                            <a href="#" class="but-github">Github</a>
+
+                        </div>
+                        <div class="virus">
+                            <i class="fa-solid fa-virus"></i>
+                            <i class="fa-solid fa-virus"></i>
+                            <i class="fa-solid fa-virus"></i>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <!-- back-side -->
+
+                    <div class="backpage-3" id="backside-3">
+
+                        <div id="back-side-container"></div>
+
+                        <div class="x-close" id="close" onclick="closebtns_3()"></div>
+
+                        <h1>Project_y</h1>
+
+                        <h3>Live</h3>
+
+                        <p>🌟 Excited to share my first project: a transport services website! 🚚✨ This platform
+                            showcases for
+                            transport
+                            services website </p>
+
+                        <div class="lable-title">Need : </div>
+
+                        <p class="last-para">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+
+                </div>
+
+                <!-- end card -->
+
+
+            </div>
+
+        </div>
+
+
+
+
+        <!--  project section second  -->
+
+
+        <section class="project-section-second">
+            <div class="project-section-row">
+
+                  <div class="project-section-col">
+                        <strong class="count" data-target="10">0</strong>
+                        <p>Achievements</p>
+                  </div>
+
+                  <div class="project-section-col">
+                        <strong class="count" data-target="30">0</strong>
+                        <p>Projects</p>
+                  </div>
+
+                  <div class="project-section-col">
+                        <strong class="count" data-target="1000">0</strong>
+                        <p>Mentored Students</p>
+                  </div>
+                  
+                  <div class="project-section-col">
+                        <strong class="count" data-target="100">0</strong>
+                        <p>Cups of coffee</p>
+                  </div>
+
+                
+              </div>
+        </section>
+
+        <!--  foooter for project section  -->
+
+        <div class="project-footer">
+            <div class="project-footer-row">
+                <h2>More projects on<span> Github </span> </h2>
+                <div class="heading">
+                    <h4> I love to solve business problems &amp; uncover <br> hidden data stories </h4>
+                    <br>
+                    <p><a href="https://github.com/rishabhnmishra" class="btn btn-primary py-3 px-5">GitHub</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <footer class="footer-section" id="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-row-1">
+
+
+                <div class="row-1-col">
+                    <div class="single-cta">
+
+                        <div class="footer-icon">
+
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>Akshay PalaceWarje Malwadi Rd, Warje, Pune, Maharashtra 411052
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-1-col">
+                    <div class="single-cta">
+
+                        <div class="footer-icon">
+
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>+ 91 7709266280</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-1-col">
+                    <div class="single-cta">
+
+                        <div class="footer-icon">
+
+                            <i class="far fa-envelope-open"></i>
+                        </div>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>amolkadam1274@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="footer-underline"></div>
+
+
+
+            <div class="footer-content-box">
+                <div class="footer-content-row">
+
+                    <div class="footer-content-col">
+                        <div class="footer-widget-1">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                    <img src="/images/logo.png" class="img-fluid" alt="logo">
+                                </a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor
+                                    incididuntut consec tetur adipisicing
+                                    elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Connect with me on :)|</span>
+                                <a href="#"><i class="fa-brands fa-linkedin linkedin-bg"></i></a>
+                                <a href="#"><i class="fa-brands fa-github github-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram instagram-bg"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-content-col">
+                        <div class="footer-widget-2">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#header">Home</a></li>
+                                <li><a href="#about-section">About</a></li>
+                                <li><a href="#resume-section">Resume</a></li>
+                                <li><a href="#service-info">Services</a></li>
+                                <li><a href="#project-page">Projects</a></li>
+                                <li><a href="#footer">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-content-col">
+                        <div class="footer-widget-3">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="top-scroll" id="myBtn" onclick="topFunction()">
+            <i class="fa-solid fa-arrow-up fa-2xl"></i>
+        </div>
+
+
+        <div class="copyright-area">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Amol</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about-section">About</a></li>
+                            <li><a href="#resume-section">Resume</a></li>
+                            <li><a href="#service-info">Services</a></li>
+                            <li><a href="#project-page">Projects</a></li>
+                            <li><a href="#footer">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Linking custom script -->
+    <script src="/project-slide.js"></script>
+    <script src="script.js"></script>
+    <script src="hero-text-change.js"></script>
+    <script src="project-card.js"></script>
+</body>
+
+</html>
